@@ -5,7 +5,39 @@ a{
     text-decoration: none;
     
 }
-
+a.zalo{
+    display: inline;
+    width: 50px;
+    height: 50px;
+    border-radius: 100px;
+    position: fixed;
+    top: 600px;
+    left: 10px;
+    background-image: url(https://mtel.vn/template/default/images/icon_zalo_chat.png);
+    background-size: cover;
+    box-shadow: 0 0 10px -2px rgb(0, 0, 0);
+}
+a.zalo p{
+    display: flex;
+    width: 200px;
+    height: 35px;
+    margin-left: 60px;
+    margin-top: 5px;
+    padding-left: 20px;
+    background-color: rgb(252, 246, 192);
+    align-items: center;
+    border: 1px solid rgb(255, 176, 30);
+    border-radius: 4px;
+    box-shadow: 5px 5px 10px -2px rgba(0, 0, 0, 0.233);
+    color: black;
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.2s;
+}
+a.zalo:hover p{
+    visibility: unset;
+    opacity: 1;
+}
 div.container_1{
     width: 1200px;
     margin: auto;
