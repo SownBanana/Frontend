@@ -1,0 +1,653 @@
+*{
+    margin: 0;
+}
+a{
+    text-decoration: none;
+    
+}
+
+div.container_1{
+    width: 1200px;
+    margin: auto;
+    padding-left: 82px;
+}
+div.container{
+    width: 1200px;
+    margin: auto;
+}
+div .fa{
+    font-size: 15px;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    color: rgba(0, 0, 0, 0.897);
+
+}
+.mainheader{
+    width: 100%;
+    height: 30px;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.247);
+    display: flex;
+}
+ul{
+    list-style: none;
+}
+.header{    
+    width: 1520px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+}
+.header .to{
+    display: block;
+    padding-top: 9px;
+    padding-left: 13px;
+    padding-right: 13px;
+    margin-bottom: 10px;
+}
+.header .dau{
+    margin-left: 110px;
+    margin-top: 0px;
+}
+.header .sdt{
+
+}
+.header .boder{
+    width: 1.5px;
+    height: 15px;
+    margin-top: 8px;
+    background-color: rgba(1, 116, 136, 0.5);
+}
+.header .menu{
+    position: relative;
+}
+.header .menu ._menu{
+    width: 321px;
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+    margin-left: -20px;
+    margin-top: 5px;
+    padding: 15px 0px 15px 10px;
+    border: 1px solid rgba(128, 128, 128, 0.247);
+    color: rgb(238, 20, 20);
+    font-weight: bold;
+    opacity:0;
+    visibility: hidden;
+    transition: 0.1s;
+}
+.header .menu:hover ._menu{
+    visibility: unset;
+    opacity: 1;
+
+}
+.header .menu ._menu .submenu{
+    display: flex;
+    flex-wrap: wrap; 
+    color: rgb(0, 0, 0, 0.897);
+    font-weight: normal;
+    margin-left: -39px;
+}
+.header .menu ._menu .submenu .item{
+    width: 140px;
+    height: 10px;
+    display: block;  
+    margin-right: 20px;
+    margin-top: 15px;
+}
+.header .menu ._menu .submenu .item .skype{
+    color: rgb(13, 204, 204);
+}
+.header .login{
+    margin-left: 40px;
+    display: flex;
+    font-weight: bold;
+}
+.header .login .logincon{
+    margin-left: 5px;
+}
+.header .login .chia{
+    margin-left: 15px;
+    margin-right: 15px;
+    color: rgba(1, 131, 236, 0.507); 
+}
+/*header1*/
+
+.header2{
+    display: flex;
+    width: 96.5%;
+    height: 100px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    justify-content: space-between;
+}
+.header2 .logo{
+    width: 140px;
+    height: 60px;
+}
+.header2 .banner{
+    width: 670px;
+    height: 80px;
+}
+.header2 .buy{
+    display: flex;
+    margin-top: 20px;
+}
+.header2 .buy .giohang{
+    width: 39px;
+    height: 32px;
+}
+.header2 .buy .text{
+    margin-left: 8px;
+    font-size: 15px;
+}
+.header2 .buy .text .xem{
+    font-weight: bold;
+    margin-bottom: 7px;
+}
+.header2 .buy .text .sanpham{
+    display: flex;
+}
+.header2 .buy .text .sanpham .soluong{
+    font-weight: bold;
+}
+.header2 .buy .text .sanpham .chu{
+    margin-left: 5px;
+}
+
+/*Header2*/
+
+.searchbar {
+    display: flex;
+    justify-content: space-between;
+    padding-right: 10px;
+    background-color: rgba(194, 191, 191, 0.3);
+    margin-top: -20px;
+    
+}
+.searchbar .menungang{
+    display: flex;
+    color: white;
+    background-color: rgb(209, 5, 5);
+    padding: 10px;
+}
+.searchbar .menungang div{
+    font-size: 16px;
+}
+.searchbar .menungang .fa{
+    font-size: 10px;
+    margin-left: 15px;
+    margin-top: 3px;
+    color: rgba(255, 255, 255, 0.863);
+
+}
+.searchbar .search{
+    width: 465px;
+    position: relative;
+}
+.searchbar .search form{
+    position: absolute;
+    margin-top: 3px;
+}
+.searchbar .search input{
+    width: 400px;
+    height: 32px;
+    border: 1px solid rgba(0, 0, 0, 0.185);
+    border-radius: 50px;
+    position: absolute;
+    padding: 10px;
+} 
+.searchbar .search .fa{
+    position: absolute;
+    margin-left: 374px;
+    margin-top: 9px;
+    color: rgba(0, 0, 0, 0.521);
+}
+.searchbar .hotline_1{
+    display: flex;
+    align-items: center;
+    display: flex;
+    border-right: 1px solid rgba(0, 0, 0, 0.123);
+    padding-right: 12px;
+}
+.searchbar .hotline_2{
+    display: flex;
+    align-items: center;
+    display: flex;
+}
+.searchbar .text{
+    color: rgb(238, 20, 20);
+    font-weight: bold;
+    font-size: 13px;  
+    text-align: center;
+    
+}
+.searchbar .text .nho{
+    font-size: 12px;
+}
+.searchbar .num{
+    color: rgb(238, 20, 20);
+    font-weight: bold;
+    font-size: 17px;
+    margin-left: 8px;
+  
+}
+/*Searchbar*/
+.dau{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+
+}
+.dau .menu{
+    padding: 0;
+    position: relative;
+}
+.dau .menu li{
+    width: 199px;
+    height: 21px;
+    background-color: rgba(194, 191, 191, 0.3);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.123);
+    padding: 10px;
+}
+.dau .menu li:hover{
+    background-color:  rgba(247, 247, 247, 0.966);
+}
+.dau .menu li a{
+   font-size: 14px;
+   color: rgba(0, 0, 0, 0.897);
+   position: absolute;
+
+}
+.dau .menu li .submenu{
+    width: 780px;
+    height: 400px;
+    position: absolute;
+    background-color:  rgb(248, 248, 248);
+    padding: 15px;
+    left: 235px;
+    top: -1px;
+    border: 1px solid rgba(0, 0, 0, 0.123);
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.5s;
+
+}
+.dau .menu li .submenu .head{
+    width: 260px;
+    color: rgb(238, 20, 20);
+    font-weight: bold;
+    font-size: 15px;
+    float: left;
+    margin-bottom: 30px;
+}
+.dau .menu li:hover .submenu{
+    visibility: unset;
+    opacity: 1;
+    left: 207px;
+}
+.dau .menu li .submenu .head p{
+    font-size: 13px;
+    font-weight: normal;
+    color: rgba(0, 0, 0, 0.897);
+    margin-top: 2px;
+}
+.dau img{
+    width: 100%;
+    height: 420px;
+}
+/*Phần đầu*/
+.bar {
+    background-color: #3b5998;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 8px;
+}
+.bar .item{
+    font-size: 14px;
+    color: white;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    padding: 10px;
+    border-left: 1px solid rgba(0, 0, 0, 0.281);
+
+}
+.bar .item_1{
+    color: rgb(255, 208, 0);
+    font-weight: 600;
+    border-left: 0px;
+}
+.bar .item:hover{
+    background-color: rgba(255, 255, 255, 0.185);
+}
+/*Thanh xanh da trời*/
+.than1{width: 100%; display: flex; justify-content: space-between;margin-top: 15px;}
+.than1 .trai{
+    width: 66%;
+} 
+.than1 .trai .select{
+    width: 100%;
+    display: flex;
+    position: relative;
+    border-bottom: 2.5px solid black;
+} 
+.than1 .trai .select .m{
+    height: 40px;
+    font-size: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+    display: flex;
+    align-items: center;
+} 
+.than1 .trai .select .m1{
+    background-color: rgb(207, 0, 0);
+    color: rgba(255, 255, 255, 0.952);
+    font-weight: 600;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+} 
+.than1 .trai .select .m:active{
+    background-color: rgb(207, 0, 0);
+    color: rgba(255, 255, 255, 0.952);
+    font-weight: 600;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+} 
+.than1 .trai .select .h{
+    display: flex;
+    align-items: center;
+    position: absolute;
+    right: 0px;
+    top: 15px;
+    color: rgb(207, 0, 0);
+
+} 
+.than1 .trai .item{
+    width: 100%;
+    height: 269px;
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: wrap; 
+    border-top: 1px solid rgba(0, 0, 0, 0.199); 
+    border-left: 1px solid rgba(0, 0, 0, 0.199);
+   
+} 
+
+.than1 .trai .item .sp{
+    width: 22.35%;
+    padding: 10px;
+    border-right: 1px solid rgba(0, 0, 0, 0.199);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.199);
+}
+.than1 .trai .item .sp .layer{
+    position: relative;
+    margin: auto;
+    height: 180px;
+    align-items: center;
+    display: flex;
+}
+.than1 .trai .item .sp img{
+    width: 100%;
+    max-height: 100%;
+} 
+.than1 .trai .item .sp .discount{
+    color: white;
+    font-size: 15px;
+    position: absolute;
+    background: url(sprite.png);
+    background-position: -239px -62px; 
+    width: 45px;
+    height: 45px;
+    justify-content: center; 
+    align-items: center;
+    display: flex;
+    left: 0;
+    top: 0;
+} 
+.than1 .trai .item .sp .price{
+    text-align: center;
+} 
+.than1 .trai .item .sp .price .o{
+    color: rgba(0, 0, 0, 0.363);
+    text-decoration: line-through;
+} 
+.than1 .trai .item .sp .price .sale{ 
+    font-size: 15px;
+    font-weight: bold;
+    color: rgb(212, 1, 1);} 
+.than1 .trai .item .sp .name{
+    font-size: 15px;
+    height: 35px;
+    color: black;
+    text-align: center;
+    overflow: hidden;
+} 
+
+.than1 .phai{width: 30%;}
+.than1 .phai .head{
+    display: flex;
+    background-color: rgb(207,0,0);
+    color: rgba(255, 255, 255, 0.952);
+    height: 40px;
+    align-items: center;
+    padding-left: 10px;
+    position: relative;
+}
+.than1 .phai .head p{
+    font-size: 16px;
+    font-weight: bold;
+}
+.than1 .phai .head a{
+    text-decoration: none;
+    color: white;
+    position: absolute;
+    right: 10px;
+
+}
+.than1 .phai .item{}
+.than1 .phai .item .new{
+    display: flex;
+    overflow: hidden;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.than1 .phai .item .new img{
+    width: 90px;
+    height: 60px;
+
+}
+.than1 .phai .item .new .text{
+    margin-left: 10px;
+
+}
+.than1 .phai .item .new .text .nd{
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+.than1 .phai .item .new .text .time{
+    color: gray;
+}
+/*hot*/
+.than {
+    margin-top: 90px;
+}
+.than .title {
+    width: 100%;
+}
+.than .title .tag {
+    width: 190px;
+    height: 40px;
+    background-color: rgb(207, 0, 0);
+    color: rgba(255, 255, 255, 0.952);
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-size: 18px;
+}
+.than .title .tag2{
+    width: 270px;
+}
+.than .title .tag3{
+    width: 120px;
+}
+.than .title .tag4{
+    width: 190px;
+}
+.than .title .linhtinh {
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.836);
+}
+.than .title .linhtinh p {
+    float: left;
+    padding: 8px;
+    padding-bottom: 0px;
+}
+.than .title .linhtinh .border {
+    width: 1px;
+    height: 15px;
+    float: left;
+    margin-top: 9.5px;
+    background-color: rgba(0, 0, 0, 0.178);
+}
+.than .content {
+    margin-top: 82px;
+    display: flex;
+    border-top: 2px solid black;
+}
+.than .nomag{
+    margin-top: 0px;
+}
+.than .content .trai {
+    width: 20.5%;
+    margin-top: 10px;
+}
+
+.than .content .phai {
+    width: 79%;
+}
+
+.than .phai .item{
+    width: 100%;
+    height: 269px;
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: wrap; 
+    border-top: 1px solid rgba(0, 0, 0, 0.199); 
+    border-left: 1px solid rgba(0, 0, 0, 0.199);
+   
+} 
+
+.than .phai .item .sp{
+    width: 17.78%;
+    padding: 10px;
+    border-right: 1px solid rgba(0, 0, 0, 0.199);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.199);
+    position: relative;
+}
+.than .phai .item .sp .mask{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background: linear-gradient(black, rgba(255, 255, 255, 0));
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transition: 0.4s;
+}
+.than .phai .item .sp .mask .tit{
+    margin-top: 15px;
+    margin-left: 10px;
+    font-size: 14px;
+    font-weight: 600;
+    color: rgb(248, 0, 41);
+}
+.than .phai .item .sp .mask .noi{
+    margin-top: -10px;
+    margin-left: 10px;
+    font-size: 13px;
+    font-weight: 100;
+    color: rgb(255, 255, 255);
+    white-space: pre-line;
+}
+.than .phai .item .sp:hover .mask{
+    opacity: 1;
+
+}
+.than .phai .item .sp .layer{
+    position: relative;
+    margin: auto;
+    height: 180px;
+    align-items: center;
+    display: flex;
+}
+.than .phai .item .sp .layer img{
+    width: 100%;
+    max-height: 100%;
+} 
+.than .phai .item .sp .layer .discount{
+    color: white;
+    font-size: 15px;
+    position: absolute;
+    background: url(sprite.png);
+    background-position: -239px -62px; 
+    width: 45px;
+    height: 45px;
+    justify-content: center; 
+    align-items: center;
+    display: flex;
+    left: 0;
+    top: 0;
+} 
+.than .phai .item .sp .layer .new{
+    color: white;
+    padding:  7px 10px;
+    background-color: rgb(32, 78, 202);
+    border-radius: 2px;
+    position: absolute;
+    top: 20px;
+    right: 0;
+}
+.than .phai .item .sp .price{
+    text-align: center;
+} 
+.than .phai .item .sp .price .o{
+    color: rgba(0, 0, 0, 0.363);
+    text-decoration: line-through;
+} 
+.than .phai .item .sp .price .sale{ 
+    font-size: 15px;
+    font-weight: bold;
+    color: rgb(212, 1, 1);} 
+.than .phai .item .sp .name{
+    font-size: 15px;
+    height: 35px;
+    color: black;
+    text-align: center;
+    overflow: hidden;
+} 
+
+
+
+
+
+
+
+/*Thân*/
+
+
+
+.test{
+    display: flex;
+}
+.test1{
+    background-color: rebeccapurple;
+}
+.test2{
+    background-color: blue;
+}
+
+
+

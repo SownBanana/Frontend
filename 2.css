@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.bo{
+    width: 500px;
+    height: 500px;
+    position: relative;
+}
+.bo .back{
+    background-image: url(https://znews-photo.zadn.vn/w860/Uploaded/qhj_yvobvhfwbv/2018_07_18/Nguyen_Huy_Binh1.jpg)
+}
+.bo .mask{}
+.bo .to{}
+
+
+
+
+
+
+.to{
+    width: 100px;
+    height: 30px;
+    background-color: rgb(255, 255, 255);
+    margin: auto;
+    overflow: hidden;
+}
+.to .nho{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    position: relative;
+    top: 27px;
+    opacity: 0.5;
+    transition: 1s;
+}
+.to:hover .nho{
+    top: 0px;
+    opacity: 1;
+}
