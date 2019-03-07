@@ -502,6 +502,7 @@ ul{
 }
 /*hot*/
 .than {
+    width: 100%;
     margin-top: 90px;
 }
 .than .title {
@@ -546,6 +547,7 @@ ul{
 }
 .than .content {
     margin-top: 82px;
+    margin-bottom: -70px;
     display: flex;
     border-top: 2px solid black;
 }
@@ -659,27 +661,133 @@ ul{
     color: black;
     text-align: center;
     overflow: hidden;
-} 
-
-
-
-
-
-
+}
 
 /*Thân*/
-
-
-
-.test{
+.container .footer1{
+    width: 99.1%;
+    margin-top: 90px;
     display: flex;
+    background-color: rgba(197, 197, 197, 0.637);
+    padding: 15px 5px 10px 8px;
+    height: 140px;
 }
-.test1{
-    background-color: rebeccapurple;
+.container .footer1 .list{
+    color: black;
+    list-style: none;
 }
-.test2{
-    background-color: blue;
+.container .footer1 .list p{
+    font-size: 15px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.container .footer1 .list li{
+    margin-top: 5px;
+    font-size: 14px;
+    font-weight: 500;
 }
 
+.footer2{
+    width: 99.1%;
+    margin-top: 0px;
+    display: flex;
+    background-color:  rgb(214, 38, 38);
+    padding: 15px 5px 10px 8px;
+    height: 130px;
+    justify-content: space-between;
+}
+.footer2 .info{
+    width: 30%;
+    color: rgb(255, 255, 255);
+}
+.footer2 .info .head{
+    font-size: 15px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.footer2 .info .text{
+    font-size: 13px;
+    margin-top: 5px;
+}
+.footer2 .info a{
+    display: block;
+    color: white;
+    font-size: 13px;
+    margin-top: 5px;
+}
+
+.footer3{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid rgba(0, 0, 0, 0.123);
+}
+.footer3 p{
+    width: 12%;
+    font-size: 13px;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-right: 1px solid rgba(0, 0, 0, 0.123);
+}
+.footer3 img{
+    width: 8%;
+}
+.footer4{
+    margin-bottom: 10px;
+    width: 100%;
+    display: flex;
+    border: solid 1px #ddd;
+}
+.footer4 .thanhtoan{
+    width: 56%;
+    border-right: solid 1px #ddd;
+}
+.footer4 .thanhtoan .text{
+    margin-top: 25px;
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer4 .thanhtoan .atm{
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    margin-top: 20px;
+    justify-content: space-around;
+}
+.footer4 .thanhtoan .atm img{
+    width: 23.5%;
+    border: solid 1px #ddd;
+    margin-top: 5px;
+}
+.footer4 .anh{
+    width: 27%;
+    border-right: solid 1px #ddd;
+    text-align: center;
+}
+.footer4 .anh img{
+    margin-top: 50px;
+}
+.footer4 iframe{
+    width: 30%;
+    
+}
+.footer5{
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    width: 100%;
+    height: 100px;
+}
+.footer5 img{
+}
+/*Footer*/
 
 
