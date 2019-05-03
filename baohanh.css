@@ -401,7 +401,7 @@ ul{
     visibility: hidden;
 
 }
-.than1 .trai .hienItem{
+.hienItem{
     visibility: unset;
 }
 .than1 .trai .item .sp{
@@ -827,6 +827,7 @@ iframe {
 .khung{
     border: 2px solid rgb(214, 38, 38);
     margin-top: 0.5px;
+    margin-bottom: 20px;
 }
 .fillinfo{
     display: flex;
@@ -873,4 +874,35 @@ iframe {
 }
 .khung .info button .mot{
     width: 100px;
+}
+table{
+    position: absolute;
+    margin-top: 5px;
+    border-collapse: collapse;
+    font-size: 14px;
+    width: 100%;
+    visibility: hidden;
+}
+table, td, tr, th {
+    border: 1px solid rgba(0, 0, 0, 0.24);
+}
+tr.duoi{
+    height: 40px;
+}
+tr.tren{
+    background-color: rgb(238, 238, 238);
+}
+.hienbang{
+    position: unset;
+    visibility: unset;
+}
+ul.esp{
+    font-size: 14px;
+    list-style: disc;
+}
+ul.esp b{
+    margin-left: -40px;
+}
+ul.esp li{
+    margin-top: 5px;
 }

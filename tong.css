@@ -290,7 +290,7 @@ ul{
    font-size: 14px;
    color: rgba(0, 0, 0, 0.897);
    position: absolute;
-    z-index: 3;
+
 }
 .dau .menu li .submenu{
     width: 780px;
@@ -304,7 +304,7 @@ ul{
     opacity: 0;
     visibility: hidden;
     transition: 0.5s;
-    z-index: 3;
+
 }
 .dau .menu li .submenu .head{
     width: 260px;
@@ -329,84 +329,6 @@ ul{
     width: 100%;
     height: 420px;
 }
-/* Slidle */
-.dau .main_slide {
-    width: 760px;
-    overflow: hidden;
-}
-.dau .main_slide ul{
-    padding: 0;
-    display: flex;
-    width: 760px;
-    transition: ease-in-out 0.8s;
-}
-.dau .main_slide ul.so1{
-    transform: translateX(0);
-}
-.dau .main_slide ul.so2{
-    transform: translateX(-100%);
-}
-.dau .main_slide ul.so3{
-    transform: translateX(-200%);
-}
-.dau .main_slide ul.so4{
-    transform: translateX(-300%);
-}
-.dau .main_slide ul li{
-    width: 760px;
-}
-.dau .main_slide ul li img{
-    width: 760px;
-    height: 355px;
-}
-.dau .chuyenslide {
-    margin-top: -3px;
-    width: 760px;
-    height: 62.5px;
-    border: 1px solid rgba(128, 128, 128, 0.452);
-    border-right: 0;
-    display: flex;
-}
-.dau .chuyenslide .nut{
-    width: 25%;
-    border-right: 1px solid rgba(128, 128, 128, 0.452);
-    display: flex;
-    align-items: center;
-    text-align: center;
-    font-size: 14px;
-    padding: 5px;
-}
-.dau .chuyenslide .nut.activenut{
-    color: rgb(211, 1, 1);
-}
-.nutchuyen .fa{
-    width: 35px;
-    height: 40px;
-    position: absolute;
-    background: gray;
-    opacity: 0.4;
-    border-radius: 5px;
-    text-align: center;
-    line-height: 40px;
-    color: white;
-    font-size: 33px;
-    transition: 0.2s;
-}
-.nutchuyen .fa.nuttrai{
-    top: 315px;
-}
-.nutchuyen .fa.nuttrai:hover{
-    opacity: 0.9;
-}
-.nutchuyen .fa.nutphai{
-    top: 315px;
-    right: 360px;
-}
-.nutchuyen .fa.nutphai:hover{
-    opacity: 0.9;
-}
-
-
 /*Phần đầu*/
 .bar {
     background-color: #3b5998;
@@ -479,7 +401,7 @@ ul{
     visibility: hidden;
 
 }
-.than1 .trai .hienItem{
+.hienItem{
     visibility: unset;
 }
 .than1 .trai .item .sp{
@@ -870,5 +792,207 @@ iframe {
 }
 /*Footer*/
 
-
-
+/* Baohanh.html */
+.link{
+    margin-top: 17px;
+    margin-bottom: 17px;
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.705);
+}
+.line{
+    border-top: 1px solid rgba(0, 0, 0, 0.199);
+    margin-bottom: 10px;
+}
+.menungang .baohanh{
+    position: absolute;
+    background-color: rgb(241, 241, 241);
+    margin-top: 18.5px;
+    margin-left: -208.5px;
+    visibility: hidden;
+}
+.menungang:hover .baohanh{
+    visibility: unset;
+}
+.container .tagnho{
+    
+    font-size: 17px;
+    color: white;
+    font-weight: bold;
+    background:  rgb(214, 38, 38);
+    padding: 5px 10px;
+    margin-top: 15px;
+}
+.container .tagnho.rong{
+    width: 275px;
+}
+.khung{
+    border: 2px solid rgb(214, 38, 38);
+    margin-top: 0.5px;
+    margin-bottom: 20px;
+}
+.fillinfo{
+    display: flex;
+    padding: 15px 10px;
+    padding-bottom: 0;
+}
+.fillinfo .so{
+    width: 8%;
+}
+.fillinfo .so .sdt{
+    margin-bottom: 9px;
+}
+.fillinfo .get{
+    width: 20%;
+}
+.fillinfo .get input{
+    width: 90%;
+    margin-bottom: 15px;
+}
+.fillinfo .yeucau1{
+    width: 29%;
+    margin-left: 10px;
+    margin-right: 20px;
+    font-size: 13.5px;
+}
+.fillinfo .yeucau2{
+    width: 41%;
+    height: 50%;
+    font-size: 15px;
+    font-weight: bold;
+    color: #085694;
+    margin-right: 5px;
+    padding-left: 26px;
+    border-left: 1px solid black;
+    border-left-style: dotted;
+}
+.khung .info{
+    padding: 15px 10px;
+    padding-top: 0;
+}
+.khung .info button{
+    border: none;
+    font-size: 13px;
+}
+.khung .info button .mot{
+    width: 100px;
+}
+.khung .info table{
+    position: absolute;
+    margin-top: 5px;
+    border-collapse: collapse;
+    font-size: 14px;
+    width: 100%;
+    visibility: hidden;
+}
+.khung .info table, td, tr, th {
+    border: 1px solid rgba(0, 0, 0, 0.24);
+}
+.khung .info table tr.duoi{
+    height: 40px;
+}
+.khung .info table tr.tren{
+    background-color: rgb(238, 238, 238);
+}
+.khung .info table.hienbang{
+    position: unset;
+    visibility: unset;
+}
+ul.esp{
+    font-size: 14px;
+    list-style: disc;
+}
+ul.esp b{
+    margin-left: -40px;
+}
+ul.esp li{
+    margin-top: 5px;
+}
+/* bán hàng doanh nghiệp */
+.container .banhang{
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+    font-size: 18px;
+}
+.bodi{
+    width: 100%;
+    display: flex;
+    margin-top: 20px;
+}
+.bodi .trai{
+    width: 120%;
+    padding-right: 20px;
+    border-right: 1px solid rgba(0, 0, 0, 0.123);
+}
+.bodi .trai .xam{
+    margin-top: 0;
+    margin-bottom: 10px;
+    height: 25px;
+    font-size: 15px;
+    background-color: rgb(221, 221, 221);
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bodi .trai table.guessinfo{
+    width: 100%;
+    height: 200px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    font-size: 14px;
+    visibility: unset;
+    position: unset;
+}
+.bodi .trai table tr{
+    height: 35px;
+}
+.bodi .trai table tr button{
+    background-color: rgb(122, 122, 122);
+    border: 1px solid rgba(0, 0, 0, 0.39);
+    border-radius: 4px;
+    color: white;
+    padding: 3px 7px;
+    font-size: 13px;
+}
+.bodi .trai table, td, tr {
+    border: none;
+}
+.bodi .trai table tr td.cot1{
+    width: 30%;
+    font-size: 13px;
+}
+.bodi .trai table tr td input{
+    width: 100%;
+}
+.bodi .trai table tr td p{
+    font-size: 11px;
+}
+.bodi .trai .dk{
+    width: 65px;
+    font-weight: 500;
+    font-size: 15px;
+    margin: auto;
+    margin-top: 10px;
+    text-align: center;
+    border-radius: 2px;
+    padding: 9px 16px;
+}
+.bodi .phai{
+    padding-left: 20px;
+    font-size: 14px;
+}
+.bodi .phai p{
+    margin-bottom: 20px;
+}
+.bodi .phai b{
+    display: block;
+    margin-bottom: 20px
+}
+.bodi .phai i{
+    display: block;
+    margin-bottom: 15px;
+    font-size: 13px;
+}
